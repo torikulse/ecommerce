@@ -1785,8 +1785,8 @@ function App() {
 
   return (
     <>
-      <h1 className="my-8 text-center text-4xl font-bold">Products</h1>
-      <div className="container mx-auto grid max-w-screen-xl grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+      <h1 className="my-8 text-center text-4xl font-bold text-orange-600">Products</h1>
+      <div className="container mx-auto grid max-w-screen-xl grid-cols-1 gap-4 md:gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {data.map((item) => {
           return (
             <Card
